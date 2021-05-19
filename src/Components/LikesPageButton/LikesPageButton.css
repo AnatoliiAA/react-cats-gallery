@@ -1,0 +1,20 @@
+.likes {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #FF868E;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.likes:hover {
+    background-color: #FBE0DC;
+}
+
+.like:active {
+    background-color: #FF868E;
+    color: #FFFFFF;
+}

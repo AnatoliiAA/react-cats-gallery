@@ -1,0 +1,16 @@
+.back-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FBE0DC;
+    color: #FF868E;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    background-color: #FF868E;
+    color: #FFFFFF;
+}

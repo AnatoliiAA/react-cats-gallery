@@ -1,0 +1,14 @@
+.left-section {
+    width: 446px;
+    height: 544px;
+    position: sticky;
+    top: 0;
+}
+
+.left-section-wrapper {
+    position: sticky;
+    top: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

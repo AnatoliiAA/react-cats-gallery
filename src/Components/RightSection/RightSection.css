@@ -1,0 +1,23 @@
+.right-section-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.right-section{
+    width: 100%;
+}
+
+.right-section-background {
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    margin: 30px 30px;
+    background-color: #FBE0DC;
+    border-radius: 20px;
+    
+}
+
+.right-section-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
