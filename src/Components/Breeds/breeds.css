@@ -12,7 +12,8 @@
 
 .breeds-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .breeds-gallery-controller {
@@ -87,16 +88,40 @@
     border-radius: 20px;
 }
 
-.breeds-gallery-image {
-    max-width: 100%;
-    max-height: 100%;
+.breeds-image-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 134, 142, 0.6);
     border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateY(100%);
+    transition: transform 0.2s ease-in;
+}
 
+.breeds-image-overlay-text {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    min-height: 34px;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #FF868E;
 }
 
 .breeds-gallery-image-wrapper {
     max-height: 300px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.breeds-gallery-image-wrapper:hover .breeds-image-overlay{
+    transform: translateY(0);
 }
 
 .first {
